@@ -1,19 +1,37 @@
 # Lane Detection
 
-A simple Python project for lane and vehicle detection using OpenCV and YOLOv4-tiny.
+Simple lane and vehicle detection using Python, OpenCV, and YOLOv4-tiny.
 
-## Setup
+## Features
 
-1. Install dependencies:
-   pip install -r requirements.txt
+- Detects lane boundaries from road video frames
+- Detects vehicles using YOLOv4-tiny
+- Draws visual overlays on output video
+- Lightweight setup with minimal dependencies
 
-## Run
+## Requirements
 
+- Python 3.8+
+- OpenCV
+- NumPy
+
+## Quick Start
+
+```bash
+pip install -r requirements.txt
 python lane_detection.py
+```
 
-## Files
+## Input and Output
 
-- lane_detection.py: main script
-- requirements.txt: Python dependencies
-- yolov4-tiny.cfg / yolov4-tiny.weights: YOLO model files
-- coco.names: class labels
+- Input video: input_video2.mp4
+- Output video: output_video.avi
+
+You can change file names directly in lane_detection.py if needed.
+
+## Project Files
+
+- lane_detection.py - main script
+- requirements.txt - Python dependencies
+- yolov4-tiny.cfg and yolov4-tiny.weights - YOLO model files
+- coco.names - class labels
