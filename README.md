@@ -2,6 +2,8 @@
 
 Simple lane and vehicle detection using Python, OpenCV, and YOLOv4-tiny.
 
+Demo Video: https://parminderbadhan.vercel.app/LaneDetectionVideo.mp4
+
 ## Features
 
 - Detects lane boundaries from road video frames
